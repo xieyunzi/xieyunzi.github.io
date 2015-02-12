@@ -1,10 +1,16 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
+title: 云牙
+#email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  如采自淤泥的藕，洗净了污浊，却洗不掉污斑
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://xieyunzi.github.io" # the base hostname & protocol for your site
+github_username: xieyunzi
+
+timezone: Asia/Shanghai
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+kramdown:
+  input: GFM
+  toc_levels: 1..6
